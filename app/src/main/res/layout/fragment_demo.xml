@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+
+
+    <com.jycs.myview.widget.MyView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:text="牛B"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:text="删除"
+            android:background="#f00"
+            android:textColor="#fff"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+    </com.jycs.myview.widget.MyView>
+
+
+    <com.jycs.myview.widget.MarqueeView
+        android:visibility="gone"
+        android:background="#f00"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textSize="16dp"
+        android:maxLines="1"
+        android:text="123456789大夫水电送到发大水是的发送到发多少发多少发送到sfdsfkhlkj987654321"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        tools:ignore="EllipsizeMaxLines" />
+
+
+    <com.jycs.myview.widget.ChartView
+        android:id="@+id/chartView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
